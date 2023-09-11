@@ -34,6 +34,7 @@ body {
 }
 
 /* Main */
+
 .main {
     display: flex;
     background-color: #1F2937;
@@ -88,6 +89,7 @@ body {
     display: flex;
     font-size: 18px;
     margin-top: 35px;
+    margin-bottom: 50px;
 }
 
 .info__container .info__content img {
@@ -127,4 +129,25 @@ body {
     align-items: center;
     text-align: center;
     width: 200px;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote__container {
+    width: 800px;
+    margin: 70px 0 70px 0;
+}
+
+.quote__name p {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: right;
 }
